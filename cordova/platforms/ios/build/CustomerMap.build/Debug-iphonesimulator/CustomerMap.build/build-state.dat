@@ -1,0 +1,762 @@
+TCustomerMap
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Info.plist /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/CustomerMap-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Script-304B58A110DAC018002A0835.sh
+cCpResource CustomerMap/config.xml build/CustomerMap.app/config.xml
+cCpResource CustomerMap/Resources/icons/icon-72.png build/CustomerMap.app/icon-72.png
+cCpResource CustomerMap/Resources/icons/icon.png build/CustomerMap.app/icon.png
+cCpResource CustomerMap/Resources/icons/icon@2x.png build/CustomerMap.app/icon@2x.png
+cCpResource CustomerMap/Resources/Capture.bundle build/CustomerMap.app/Capture.bundle
+cCopyStringsFile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/en.lproj/Localizable.strings CustomerMap/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/es.lproj/Localizable.strings CustomerMap/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.xib
+cCopyStringsFile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/de.lproj/Localizable.strings CustomerMap/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/se.lproj/Localizable.strings CustomerMap/Resources/se.lproj/Localizable.strings
+cCpResource CustomerMap/Resources/splash/Default-Landscape@2x~ipad.png build/CustomerMap.app/Default-Landscape@2x~ipad.png
+cCpResource CustomerMap/Resources/splash/Default-Landscape~ipad.png build/CustomerMap.app/Default-Landscape~ipad.png
+cCpResource CustomerMap/Resources/splash/Default-Portrait@2x~ipad.png build/CustomerMap.app/Default-Portrait@2x~ipad.png
+cCpResource CustomerMap/Resources/splash/Default-Portrait~ipad.png build/CustomerMap.app/Default-Portrait~ipad.png
+cCpResource CustomerMap/Resources/splash/Default@2x~iphone.png build/CustomerMap.app/Default@2x~iphone.png
+cCpResource CustomerMap/Resources/splash/Default~iphone.png build/CustomerMap.app/Default~iphone.png
+cCpResource CustomerMap/Resources/splash/Default-568h@2x~iphone.png build/CustomerMap.app/Default-568h@2x~iphone.png
+cCpResource CustomerMap/Resources/icons/icon-72@2x.png build/CustomerMap.app/icon-72@2x.png
+cProcessPCH /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CustomerMap-Prefix-gecnahdcventrzhifqagabacirep/CustomerMap-Prefix.pch.pch CustomerMap/CustomerMap-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/AppDelegate.o /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/main.o /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/MainViewController.o /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/CustomerMap normal i386
+cGenerateDSYMFile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app.dSYM /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/CustomerMap
+cTouch /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000521BCCE50000000000000176
+t1377553637
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c000000005257B9B500000000000003B5
+t1381480885
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005257B9C5000000000000019E
+t1381480901
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005257B9CA000000000047C8A0
+t1381480906
+s4704416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000005257B9C60000000000191F30
+t1381480902
+s1646384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000005257B9C800000000004F2C80
+t1381480904
+s5188736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c000000005257B9C80000000000057080
+t1381480904
+s356480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005257B9CA0000000000902E30
+t1381480906
+s9449008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005257B9CD0000000000583810
+t1381480909
+s5781520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005257B9CC0000000000445830
+t1381480908
+s4479024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005257B9CE00000000000EC820
+t1381480910
+s968736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005257B9CE0000000000133B60
+t1381480910
+s1260384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005257B9D0000000000088B570
+t1381480912
+s8959344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005257B9D30000000000714B70
+t1381480915
+s7424880
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005257B9D400000000001BA500
+t1381480916
+s1811712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005257B9D40000000000484860
+t1381480916
+s4737120
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005257B9D500000000001081B0
+t1381480917
+s1081776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005257B9D90000000001DB1C90
+t1381480921
+s31136912
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.m
+c000000005258839300000000000013DC
+t1381532563
+s5084
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.m
+c0000000052588393000000000000126C
+t1381532563
+s4716
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.xib
+c00000000525883920000000000001759
+t1381532562
+s5977
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/CustomerMap-Info.plist
+c00000000525883960000000000000740
+t1381532566
+s1856
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/CustomerMap-Prefix.pch
+c000000005258839300000000000003C7
+t1381532563
+s967
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/Capture.bundle
+c0000000052588392000000000000030E
+t1381532562
+s782
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/de.lproj/Localizable.strings
+c00000000525883920000000000000485
+t1381532562
+s1157
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/en.lproj/Localizable.strings
+c00000000525883920000000000000470
+t1381532562
+s1136
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/es.lproj/Localizable.strings
+c0000000052588392000000000000047D
+t1381532562
+s1149
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/icons/icon-72.png
+c00000000525883920000000000001350
+t1381532562
+s4944
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/icons/icon-72@2x.png
+c00000000525883920000000000002DBA
+t1381532562
+s11706
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/icons/icon.png
+c00000000525883920000000000000F3E
+t1381532562
+s3902
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/icons/icon@2x.png
+c00000000525883920000000000001EBD
+t1381532562
+s7869
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/se.lproj/Localizable.strings
+c00000000525883920000000000000471
+t1381532562
+s1137
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default-568h@2x~iphone.png
+c000000005258839200000000000085B1
+t1381532562
+s34225
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000525883920000000000012DF4
+t1381532562
+s77300
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default-Landscape~ipad.png
+c00000000525883920000000000008877
+t1381532562
+s34935
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000525883930000000000012B02
+t1381532563
+s76546
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default-Portrait~ipad.png
+c000000005258839300000000000085E6
+t1381532563
+s34278
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default@2x~iphone.png
+c00000000525883930000000000007323
+t1381532563
+s29475
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default~iphone.png
+c0000000052588393000000000000289A
+t1381532563
+s10394
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/config.xml
+c0000000052588396000000000000085C
+t1381532566
+s2140
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/main.m
+c0000000052588393000000000000045D
+t1381532563
+s1117
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app
+t1381532589
+s782
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app.dSYM
+t2
+s0
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Capture.bundle
+t1381532576
+s782
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/CustomerMap
+t1381532589
+s914320
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default-568h@2x~iphone.png
+t1381532576
+s34225
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default-Landscape@2x~ipad.png
+t1381532576
+s77300
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default-Landscape~ipad.png
+t1381532576
+s34935
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default-Portrait@2x~ipad.png
+t1381532576
+s76546
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default-Portrait~ipad.png
+t1381532576
+s34278
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default@2x~iphone.png
+t1381532576
+s29475
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default~iphone.png
+t1381532576
+s10394
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Info.plist
+t1381532575
+s1075
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/MainViewController.nib
+t1381532587
+s1332
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/PkgInfo
+t2
+s0
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/config.xml
+t1381532576
+s2140
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/de.lproj/Localizable.strings
+t1381532576
+s256
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/en.lproj/Localizable.strings
+t1381532576
+s142
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/es.lproj/Localizable.strings
+t1381532576
+s308
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/icon-72.png
+t1381532576
+s4944
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/icon-72@2x.png
+t1381532576
+s11706
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/icon.png
+t1381532576
+s3902
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/icon@2x.png
+t1381532576
+s7869
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/se.lproj/Localizable.strings
+t1381532576
+s259
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/AppDelegate.o
+t1381532588
+s76020
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/CustomerMap.LinkFileList
+c000000005258839F0000000000000210
+t1381532575
+s528
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/MainViewController.o
+t1381532588
+s52564
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/main.o
+t1381532588
+s3168
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Script-304B58A110DAC018002A0835.sh
+c000000005258839F000000000000051A
+t1381532575
+s1306
+
+N/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/libCordova.a
+c000000005258839F00000000002BF210
+t1381532575
+s2880016
+
+N/var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CustomerMap-Prefix-gecnahdcventrzhifqagabacirep/CustomerMap-Prefix.pch.pch
+t1381532588
+s5333992
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies8c4cd81fbb08b841^d271d91fbb08b841^---0#1#1#--18"Check dependencies36"640F8F16-F6CB-4C4C-9DF0-5539BCD95C6A-
+
+CCompileC build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/AppDelegate.o /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403225388.262938
+e403225388.333577
+r1
+xCompileC
+xbuild/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/AppDelegate.o
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.m
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVViewController.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVWhitelist.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+o/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+oIn file included from /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.m:28:
+oIn file included from /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.h:30:
+o/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.m208"CompileC build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/AppDelegate.o CustomerMap/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd7a4432cbb08b841^c764552cbb08b841^-1023"/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^In file included from /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.m:28:In file included from /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.h:30:/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-403225388#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-403225388#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@132"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.m0000000000000000^79#24#79#24#2696#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@127"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.m0000000000000000^4846"CompileC build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/AppDelegate.o CustomerMap/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-generated-files.hmap -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-own-target-headers.hmap -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-all-target-headers.hmap -iquote /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-project-headers.hmap -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/usr/local/lib/include -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/UninstalledProducts/include -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/DerivedSources/i386 -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/DerivedSources -F/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build -include /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CustomerMap-Prefix-gecnahdcventrzhifqagabacirep/CustomerMap-Prefix.pch -MMD -MT dependencies -MF /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/AppDelegate.dia -c /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/AppDelegate.m -o /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/AppDelegate.o36"8BE3B397-57B0-47E2-9C32-44CE2746AA32-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCompileC build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/MainViewController.o /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403225388.263177
+e403225388.325109
+r1
+xCompileC
+xbuild/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/MainViewController.o
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.m
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVViewController.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVWhitelist.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.m222"CompileC build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/MainViewController.o CustomerMap/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler74b3432cbb08b841^193d532cbb08b841^---0#0#1#-19%DVTDocumentLocation2@134"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.m0000000000000000^4888"CompileC build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/MainViewController.o CustomerMap/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-generated-files.hmap -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-own-target-headers.hmap -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-all-target-headers.hmap -iquote /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-project-headers.hmap -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/usr/local/lib/include -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/UninstalledProducts/include -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/DerivedSources/i386 -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/DerivedSources -F/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build -include /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CustomerMap-Prefix-gecnahdcventrzhifqagabacirep/CustomerMap-Prefix.pch -MMD -MT dependencies -MF /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/MainViewController.dia -c /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.m -o /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/MainViewController.o36"BAA34AC6-263C-4C1E-856E-987956381B0E-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCompileC build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/main.o /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403225388.262950
+e403225388.290414
+r1
+xCompileC
+xbuild/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/main.o
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/main.m186"CompileC build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/main.o CustomerMap/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler618d432cbb08b841^08594a2cbb08b841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/main.m0000000000000000^4788"CompileC build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/main.o CustomerMap/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-generated-files.hmap -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-own-target-headers.hmap -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-all-target-headers.hmap -iquote /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-project-headers.hmap -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/usr/local/lib/include -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/UninstalledProducts/include -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/DerivedSources/i386 -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/DerivedSources -F/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build -include /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CustomerMap-Prefix-gecnahdcventrzhifqagabacirep/CustomerMap-Prefix.pch -MMD -MT dependencies -MF /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/main.dia -c /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/main.m -o /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/main.o36"BC1A7CA9-19AC-4C42-A17E-B91707C7F4BD-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCompileXIB /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.xib
+s403225376.132013
+e403225387.842007
+r1
+xCompileXIB
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.xib
+o2013-10-12 01:03:06.954 Interface Builder Cocoa Touch Tool[1222:303] CFPreferences: user home directory at file:///Users/sean/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compiling /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.xib53"CompileXIB CustomerMap/Classes/MainViewController.xiba1f42120bb08b841^268fd72bbb08b841^-228"2013-10-12 01:03:06.954 Interface Builder Cocoa Touch Tool[1222:303] CFPreferences: user home directory at file:///Users/sean/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@136"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.xib0000000000000000^1562"CompileXIB CustomerMap/Classes/MainViewController.xib    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/MainViewController.nib /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Classes/MainViewController.xib36"BB165C99-3161-4966-B086-F848ABEBC7E4-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCopyStringsFile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/de.lproj/Localizable.strings CustomerMap/Resources/de.lproj/Localizable.strings
+s403225376.136873
+e403225376.219178
+r1
+xCopyStringsFile
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/de.lproj/Localizable.strings
+xCustomerMap/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy CustomerMap/Resources/de.lproj/Localizable.strings117"CopyStringsFile build/CustomerMap.app/de.lproj/Localizable.strings CustomerMap/Resources/de.lproj/Localizable.stringscb2f2320bb08b841^70243820bb08b841^---0#0#1#-19%DVTDocumentLocation2@144"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/de.lproj/Localizable.strings0000000000000000^1330"CopyStringsFile build/CustomerMap.app/de.lproj/Localizable.strings CustomerMap/Resources/de.lproj/Localizable.strings    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/de.lproj -- CustomerMap/Resources/de.lproj/Localizable.strings36"0E4FBA6B-8256-44C4-919D-582AB0FBBBAC-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCopyStringsFile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/en.lproj/Localizable.strings CustomerMap/Resources/en.lproj/Localizable.strings
+s403225376.129827
+e403225376.135648
+r1
+xCopyStringsFile
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/en.lproj/Localizable.strings
+xCustomerMap/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy CustomerMap/Resources/en.lproj/Localizable.strings117"CopyStringsFile build/CustomerMap.app/en.lproj/Localizable.strings CustomerMap/Resources/en.lproj/Localizable.strings5c5a2120bb08b841^6dc52220bb08b841^---0#0#1#-19%DVTDocumentLocation2@144"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/en.lproj/Localizable.strings0000000000000000^1330"CopyStringsFile build/CustomerMap.app/en.lproj/Localizable.strings CustomerMap/Resources/en.lproj/Localizable.strings    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/en.lproj -- CustomerMap/Resources/en.lproj/Localizable.strings36"0B845A76-09FE-482A-8D46-F5CE5C6F7CB9-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCopyStringsFile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/es.lproj/Localizable.strings CustomerMap/Resources/es.lproj/Localizable.strings
+s403225376.130936
+e403225376.140514
+r1
+xCopyStringsFile
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/es.lproj/Localizable.strings
+xCustomerMap/Resources/es.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy CustomerMap/Resources/es.lproj/Localizable.strings117"CopyStringsFile build/CustomerMap.app/es.lproj/Localizable.strings CustomerMap/Resources/es.lproj/Localizable.strings2c9f2120bb08b841^adfb2320bb08b841^---0#0#1#-19%DVTDocumentLocation2@144"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/es.lproj/Localizable.strings0000000000000000^1330"CopyStringsFile build/CustomerMap.app/es.lproj/Localizable.strings CustomerMap/Resources/es.lproj/Localizable.strings    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/es.lproj -- CustomerMap/Resources/es.lproj/Localizable.strings36"9C567E4B-10F5-4195-97F6-D9FB6A103354-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCopyStringsFile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/se.lproj/Localizable.strings CustomerMap/Resources/se.lproj/Localizable.strings
+s403225376.137416
+e403225376.219171
+r1
+xCopyStringsFile
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/se.lproj/Localizable.strings
+xCustomerMap/Resources/se.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy CustomerMap/Resources/se.lproj/Localizable.strings117"CopyStringsFile build/CustomerMap.app/se.lproj/Localizable.strings CustomerMap/Resources/se.lproj/Localizable.strings2c442320bb08b841^e71c3820bb08b841^---0#0#1#-19%DVTDocumentLocation2@144"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/se.lproj/Localizable.strings0000000000000000^1330"CopyStringsFile build/CustomerMap.app/se.lproj/Localizable.strings CustomerMap/Resources/se.lproj/Localizable.strings    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/se.lproj -- CustomerMap/Resources/se.lproj/Localizable.strings36"7002374A-7890-4C0F-9CA9-B8B0730B2FF9-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCpResource CustomerMap/Resources/Capture.bundle build/CustomerMap.app/Capture.bundle
+s403225376.128637
+e403225376.136540
+r1
+xCpResource
+xCustomerMap/Resources/Capture.bundle
+xbuild/CustomerMap.app/Capture.bundle
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/CustomerMap.app/Capture.bundle84"CpResource CustomerMap/Resources/Capture.bundle build/CustomerMap.app/Capture.bundle740b2120bb08b841^99f52220bb08b841^---0#0#1#-19%DVTDocumentLocation2@130"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Capture.bundle0038507adfffdf42^1371"CpResource CustomerMap/Resources/Capture.bundle build/CustomerMap.app/Capture.bundle    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/Capture.bundle /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"03024E10-EBCA-4724-AC78-D17D468B8535-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCpResource CustomerMap/Resources/icons/icon-72.png build/CustomerMap.app/icon-72.png
+s403225376.124959
+e403225376.128618
+r1
+xCpResource
+xCustomerMap/Resources/icons/icon-72.png
+xbuild/CustomerMap.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/CustomerMap.app/icon-72.png84"CpResource CustomerMap/Resources/icons/icon-72.png build/CustomerMap.app/icon-72.pngcd1e2020bb08b841^e1ee2020bb08b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/icon-72.png0038507adfffdf42^1374"CpResource CustomerMap/Resources/icons/icon-72.png build/CustomerMap.app/icon-72.png    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/icons/icon-72.png /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"7230045B-B629-4B04-BC37-D144F64C4160-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCpResource CustomerMap/Resources/icons/icon-72@2x.png build/CustomerMap.app/icon-72@2x.png
+s403225376.168901
+e403225376.171455
+r1
+xCpResource
+xCustomerMap/Resources/icons/icon-72@2x.png
+xbuild/CustomerMap.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/CustomerMap.app/icon-72@2x.png90"CpResource CustomerMap/Resources/icons/icon-72@2x.png build/CustomerMap.app/icon-72@2x.png0c572b20bb08b841^efe42b20bb08b841^---0#0#1#-19%DVTDocumentLocation2@130"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/icon-72@2x.png0038507adfffdf42^1383"CpResource CustomerMap/Resources/icons/icon-72@2x.png build/CustomerMap.app/icon-72@2x.png    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/icons/icon-72@2x.png /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"8DA7E3F2-A979-47C1-8F89-EFA30875F3AB-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCpResource CustomerMap/Resources/icons/icon.png build/CustomerMap.app/icon.png
+s403225376.124974
+e403225376.129665
+r1
+xCpResource
+xCustomerMap/Resources/icons/icon.png
+xbuild/CustomerMap.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Copy build/CustomerMap.app/icon.png78"CpResource CustomerMap/Resources/icons/icon.png build/CustomerMap.app/icon.png541f2020bb08b841^b5322120bb08b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/icon.png0038507adfffdf42^1365"CpResource CustomerMap/Resources/icons/icon.png build/CustomerMap.app/icon.png    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/icons/icon.png /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"5ED79DD0-48BA-4A8E-9EE1-78D5BE49E14F-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCpResource CustomerMap/Resources/icons/icon@2x.png build/CustomerMap.app/icon@2x.png
+s403225376.125187
+e403225376.130773
+r1
+xCpResource
+xCustomerMap/Resources/icons/icon@2x.png
+xbuild/CustomerMap.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/CustomerMap.app/icon@2x.png84"CpResource CustomerMap/Resources/icons/icon@2x.png build/CustomerMap.app/icon@2x.pngc72b2020bb08b841^967b2120bb08b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/icon@2x.png0038507adfffdf42^1374"CpResource CustomerMap/Resources/icons/icon@2x.png build/CustomerMap.app/icon@2x.png    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/icons/icon@2x.png /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"AF276F77-B065-4866-8C89-ED876687081C-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCpResource CustomerMap/Resources/splash/Default-568h@2x~iphone.png build/CustomerMap.app/Default-568h@2x~iphone.png
+s403225376.165029
+e403225376.167602
+r1
+xCpResource
+xCustomerMap/Resources/splash/Default-568h@2x~iphone.png
+xbuild/CustomerMap.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/CustomerMap.app/Default-568h@2x~iphone.png115"CpResource CustomerMap/Resources/splash/Default-568h@2x~iphone.png build/CustomerMap.app/Default-568h@2x~iphone.png47562a20bb08b841^3ae82a20bb08b841^---0#0#1#-19%DVTDocumentLocation2@142"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default-568h@2x~iphone.png0038507adfffdf42^1421"CpResource CustomerMap/Resources/splash/Default-568h@2x~iphone.png build/CustomerMap.app/Default-568h@2x~iphone.png    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default-568h@2x~iphone.png /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"41528A40-4E9D-4C06-B5B1-4A29FA22B2AC-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCpResource CustomerMap/Resources/splash/Default-Landscape@2x~ipad.png build/CustomerMap.app/Default-Landscape@2x~ipad.png
+s403225376.141818
+e403225376.144041
+r1
+xCpResource
+xCustomerMap/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/CustomerMap.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/CustomerMap.app/Default-Landscape@2x~ipad.png121"CpResource CustomerMap/Resources/splash/Default-Landscape@2x~ipad.png build/CustomerMap.app/Default-Landscape@2x~ipad.png30652420bb08b841^87e02420bb08b841^---0#0#1#-19%DVTDocumentLocation2@145"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default-Landscape@2x~ipad.png0038507adfffdf42^1430"CpResource CustomerMap/Resources/splash/Default-Landscape@2x~ipad.png build/CustomerMap.app/Default-Landscape@2x~ipad.png    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default-Landscape@2x~ipad.png /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"92FECF82-FCF8-40EF-8849-764BA8100158-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCpResource CustomerMap/Resources/splash/Default-Landscape~ipad.png build/CustomerMap.app/Default-Landscape~ipad.png
+s403225376.145381
+e403225376.147916
+r1
+xCpResource
+xCustomerMap/Resources/splash/Default-Landscape~ipad.png
+xbuild/CustomerMap.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/CustomerMap.app/Default-Landscape~ipad.png115"CpResource CustomerMap/Resources/splash/Default-Landscape~ipad.png build/CustomerMap.app/Default-Landscape~ipad.pngc24e2520bb08b841^27de2520bb08b841^---0#0#1#-19%DVTDocumentLocation2@142"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default-Landscape~ipad.png0038507adfffdf42^1421"CpResource CustomerMap/Resources/splash/Default-Landscape~ipad.png build/CustomerMap.app/Default-Landscape~ipad.png    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default-Landscape~ipad.png /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"FF6B36AA-4DEA-4AB4-A6D0-A7F94D0C4397-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCpResource CustomerMap/Resources/splash/Default-Portrait@2x~ipad.png build/CustomerMap.app/Default-Portrait@2x~ipad.png
+s403225376.149378
+e403225376.151910
+r1
+xCpResource
+xCustomerMap/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/CustomerMap.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/CustomerMap.app/Default-Portrait@2x~ipad.png119"CpResource CustomerMap/Resources/splash/Default-Portrait@2x~ipad.png build/CustomerMap.app/Default-Portrait@2x~ipad.png97572620bb08b841^2ae42620bb08b841^---0#0#1#-19%DVTDocumentLocation2@144"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default-Portrait@2x~ipad.png0038507adfffdf42^1427"CpResource CustomerMap/Resources/splash/Default-Portrait@2x~ipad.png build/CustomerMap.app/Default-Portrait@2x~ipad.png    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default-Portrait@2x~ipad.png /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"7941BEC7-CB05-42D9-969C-1AF51AD188A8-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCpResource CustomerMap/Resources/splash/Default-Portrait~ipad.png build/CustomerMap.app/Default-Portrait~ipad.png
+s403225376.153259
+e403225376.155788
+r1
+xCpResource
+xCustomerMap/Resources/splash/Default-Portrait~ipad.png
+xbuild/CustomerMap.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/CustomerMap.app/Default-Portrait~ipad.png113"CpResource CustomerMap/Resources/splash/Default-Portrait~ipad.png build/CustomerMap.app/Default-Portrait~ipad.png82532720bb08b841^0de22720bb08b841^---0#0#1#-19%DVTDocumentLocation2@141"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default-Portrait~ipad.png0038507adfffdf42^1418"CpResource CustomerMap/Resources/splash/Default-Portrait~ipad.png build/CustomerMap.app/Default-Portrait~ipad.png    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default-Portrait~ipad.png /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"628D7D44-D79B-4FAC-B6D5-00FE855841F1-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCpResource CustomerMap/Resources/splash/Default@2x~iphone.png build/CustomerMap.app/Default@2x~iphone.png
+s403225376.157266
+e403225376.159820
+r1
+xCpResource
+xCustomerMap/Resources/splash/Default@2x~iphone.png
+xbuild/CustomerMap.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/CustomerMap.app/Default@2x~iphone.png105"CpResource CustomerMap/Resources/splash/Default@2x~iphone.png build/CustomerMap.app/Default@2x~iphone.png685c2820bb08b841^7dea2820bb08b841^---0#0#1#-19%DVTDocumentLocation2@137"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default@2x~iphone.png0038507adfffdf42^1406"CpResource CustomerMap/Resources/splash/Default@2x~iphone.png build/CustomerMap.app/Default@2x~iphone.png    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default@2x~iphone.png /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"881AFFF8-B4D4-4665-A00B-B67F23DE1AB5-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCpResource CustomerMap/Resources/splash/Default~iphone.png build/CustomerMap.app/Default~iphone.png
+s403225376.161214
+e403225376.163664
+r1
+xCpResource
+xCustomerMap/Resources/splash/Default~iphone.png
+xbuild/CustomerMap.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/CustomerMap.app/Default~iphone.png99"CpResource CustomerMap/Resources/splash/Default~iphone.png build/CustomerMap.app/Default~iphone.pngc05e2920bb08b841^58e62920bb08b841^---0#0#1#-19%DVTDocumentLocation2@134"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Default~iphone.png0038507adfffdf42^1397"CpResource CustomerMap/Resources/splash/Default~iphone.png build/CustomerMap.app/Default~iphone.png    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/Resources/splash/Default~iphone.png /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"660040EA-17BD-4224-A150-0191DBAD7A13-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CCpResource CustomerMap/config.xml build/CustomerMap.app/config.xml
+s403225376.124954
+e403225376.127424
+r1
+xCpResource
+xCustomerMap/config.xml
+xbuild/CustomerMap.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/CustomerMap.app/config.xml66"CpResource CustomerMap/config.xml build/CustomerMap.app/config.xmlf7202020bb08b841^849f2020bb08b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/config.xml0038507adfffdf42^1339"CpResource CustomerMap/config.xml build/CustomerMap.app/config.xml    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/config.xml /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"74D60CA0-AAB4-4785-B712-7A4142DE733F-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CGenerateDSYMFile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app.dSYM /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/CustomerMap
+s403225389.245384
+e403225389.384629
+r1
+xGenerateDSYMFile
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app.dSYM
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/CustomerMap
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Generate /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app.dSYM77"GenerateDSYMFile build/CustomerMap.app.dSYM build/CustomerMap.app/CustomerMapfbea3e2dbb08b841^3e77622dbb08b841^---0#0#1#-19%DVTDocumentLocation2@120"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app.dSYM0038507adfffdf42^1357"GenerateDSYMFile build/CustomerMap.app.dSYM build/CustomerMap.app/CustomerMap    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/CustomerMap -o /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app.dSYM36"07E6E708-A78C-4A0E-ABA4-14C7F280483B-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CLd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/CustomerMap normal i386
+s403225388.358593
+e403225389.236201
+r1
+xLd
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/CustomerMap
+xnormal
+xi386
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/CustomerMap.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/main.o
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/AppDelegate.o
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libdnsinfo.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Link /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/CustomerMap48"Ld build/CustomerMap.app/CustomerMap normal i38610045c2cbb08b841^21783c2dbb08b841^---0#0#1#--2723"Ld build/CustomerMap.app/CustomerMap normal i386    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build -F/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build -filelist /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/CustomerMap.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -Xlinker -dependency_info -Xlinker /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/CustomerMap_dependency_info.dat -o /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/CustomerMap36"7F07429A-C621-4AF5-9703-32BF3F2E8CCF-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CPhaseScriptExecution Copy\ www\ directory /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Script-304B58A110DAC018002A0835.sh
+s403225375.865057
+e403225376.116988
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.232s
+ouser	0m0.088s
+osys	0m0.096s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'140"PhaseScriptExecution Copy\ www\ directory build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Script-304B58A110DAC018002A0835.sh0c1ede1fbb08b841^2cf41d20bb08b841^-42"real	0m0.232suser	0m0.088ssys	0m0.096s3(21%IDEActivityLogMessage2@14"real	0m0.232s-403225376#1#14#-0#-----2@14"user	0m0.088s-403225376#15#14#-0#-----2@13"sys	0m0.096s-403225376#29#13#-0#-----0#0#1#--23695"PhaseScriptExecution Copy\ www\ directory build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Script-304B58A110DAC018002A0835.sh    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER sean    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD i386    setenv ARCHS_STANDARD_32_64_BIT i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "i386 x86_64"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build    setenv BUILD_ROOT /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build    setenv CACHE_ROOT /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode    setenv CCHROOT /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app    setenv CODE_SIGNING_ALLOWED NO    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneSimulatorCodeSignContext    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH CustomerMap.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH CustomerMap.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/CustomerMap.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME CustomerMap.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH CustomerMap.app/Executables    setenv EXECUTABLE_FOLDER_PATH CustomerMap.app    setenv EXECUTABLE_NAME CustomerMap    setenv EXECUTABLE_PATH CustomerMap.app/CustomerMap    setenv FILE_LIST /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH CustomerMap.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME CustomerMap.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER CustomerMap/CustomerMap-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include \"/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/usr/local/lib/include\" \"/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/UninstalledProducts/include\" \"/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE CustomerMap/CustomerMap-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH CustomerMap.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH CustomerMap.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/CustomerMap.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER sean    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/CustomerMap.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH CustomerMap.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/CustomerMap_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal/i386/CustomerMap.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH CustomerMap.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12F45    setenv MAC_OS_X_VERSION_ACTUAL 1085    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0805    setenv MODULE_CACHE_DIR /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Objects-normal    setenv OBJROOT /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/.nvm/v0.8.25/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH CustomerMap.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/PkgInfo    setenv PKGINFO_PATH CustomerMap.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 11A465    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 70000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH CustomerMap.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH CustomerMap.app/PrivateHeaders    setenv PRODUCT_NAME CustomerMap    setenv PRODUCT_SETTINGS_PATH /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/CustomerMap-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT CustomerMap    setenv PROJECT_DERIVED_FILE_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/DerivedSources    setenv PROJECT_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PROJECT_FILE_PATH /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap.xcodeproj    setenv PROJECT_NAME CustomerMap    setenv PROJECT_TEMP_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build    setenv PROJECT_TEMP_ROOT /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH CustomerMap.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH CustomerMap.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_NAME iphonesimulator7.0    setenv SDK_PRODUCT_BUILD_VERSION 11A465    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH CustomerMap.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH CustomerMap.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv SRCROOT /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME CustomerMap    setenv TARGET_BUILD_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build    setenv TARGET_NAME CustomerMap    setenv TARGET_TEMP_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build    setenv TEMP_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build    setenv TEMP_FILES_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build    setenv TEMP_FILE_DIR /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build    setenv TEMP_ROOT /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH CustomerMap.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER sean    setenv USER_APPS_DIR /Users/sean/Applications    setenv USER_LIBRARY_DIR /Users/sean/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH CustomerMap.app/version.plist    setenv VERSION_INFO_BUILDER sean    setenv VERSION_INFO_FILE CustomerMap_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:CustomerMap  PROJECT:CustomerMap-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME CustomerMap.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A1413    setenv XCODE_VERSION_ACTUAL 0500    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH CustomerMap.app/XPCServices    setenv YACC yacc    setenv arch i386    setenv variant normal    /bin/sh -c /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/Script-304B58A110DAC018002A0835.sh36"5D8149AD-A43B-4168-AEE0-A316192C4BA4-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CProcessInfoPlistFile /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Info.plist /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/CustomerMap-Info.plist
+s403225375.851456
+e403225375.855287
+r1
+xProcessInfoPlistFile
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Info.plist
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/CustomerMap-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Process /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/CustomerMap-Info.plist88"ProcessInfoPlistFile build/CustomerMap.app/Info.plist CustomerMap/CustomerMap-Info.plist3524da1fbb08b841^9df4da1fbb08b841^---0#0#1#-19%DVTDocumentLocation2@128"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/CustomerMap-Info.plist0000000000000000^1486"ProcessInfoPlistFile build/CustomerMap.app/Info.plist CustomerMap/CustomerMap-Info.plist    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-infoPlistUtility /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/CustomerMap-Info.plist -genpkginfo /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app/Info.plist36"EEF416EA-506C-46CE-9A14-BA0C1460D38F-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CProcessPCH /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CustomerMap-Prefix-gecnahdcventrzhifqagabacirep/CustomerMap-Prefix.pch.pch CustomerMap/CustomerMap-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403225387.852393
+e403225388.253278
+r1
+xProcessPCH
+x/var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CustomerMap-Prefix-gecnahdcventrzhifqagabacirep/CustomerMap-Prefix.pch.pch
+xCustomerMap/CustomerMap-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/CustomerMap-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile CustomerMap/CustomerMap-Prefix.pch304"ProcessPCH /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CustomerMap-Prefix-gecnahdcventrzhifqagabacirep/CustomerMap-Prefix.pch.pch CustomerMap/CustomerMap-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb85bda2bbb08b841^90da402cbb08b841^---0#0#1#-19%DVTDocumentLocation2@128"file://localhost/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/CustomerMap-Prefix.pch0000000000000000^4795"ProcessPCH /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CustomerMap-Prefix-gecnahdcventrzhifqagabacirep/CustomerMap-Prefix.pch.pch CustomerMap/CustomerMap-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-generated-files.hmap -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-own-target-headers.hmap -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-all-target-headers.hmap -iquote /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/CustomerMap-project-headers.hmap -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/include -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/usr/local/lib/include -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/UninstalledProducts/include -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/DerivedSources/i386 -I/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.build/Debug-iphonesimulator/CustomerMap.build/DerivedSources -F/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build --serialize-diagnostics /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CustomerMap-Prefix-gecnahdcventrzhifqagabacirep/CustomerMap-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CustomerMap-Prefix-gecnahdcventrzhifqagabacirep/CustomerMap-Prefix.pch.d -c /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/CustomerMap/CustomerMap-Prefix.pch -o /var/folders/kn/m6b8c_cx4_13_clp4f5dmkv40000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CustomerMap-Prefix-gecnahdcventrzhifqagabacirep/CustomerMap-Prefix.pch.pch36"AB17CE14-8162-4778-90CD-7C1FAF5EA176-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
+CTouch /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app
+s403225389.394248
+e403225389.401371
+r1
+xTouch
+x/Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Touch /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app27"Touch build/CustomerMap.app9a06652dbb08b841^b5c0662dbb08b841^---0#0#1#--1109"Touch build/CustomerMap.app    cd /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/Users/sean/bin/Sencha/Cmd/4.0.0.203:/Users/sean/.nvm/v0.8.25/bin:/Users/sean/Development/testing/selenium:/Users/sean/bin/Sencha/Cmd/3.1.2.342:/Users/sean/Development/android/adt-bundle-mac/sdk/platform-tools/:/Users/sean/Development/android/adt-bundle-mac/sdk/tools:/opt/local/bin:/opt/local/sbin:/Applications/SenchaSDKTools-2.0.0-beta3:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /usr/bin/touch -c /Users/sean/Development/javascript/projects/CustomerMap/cordova/platforms/ios/build/CustomerMap.app36"B848CB73-2383-4726-8106-755BB1F7DA27-
+bDCF85E69-50F2-419E-AB94-519DF0216AA1
+
